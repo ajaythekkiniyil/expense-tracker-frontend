@@ -1,8 +1,8 @@
-# React + Vite
+# Expense Tracker Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### How to start
+1. https://github.com/ajaythekkiniyil/expense-tracker-frontend.git
+2. npm install 
+3. npm run dev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+change apiBaseUrl(this is the backend api) in const.js folder if needed.
