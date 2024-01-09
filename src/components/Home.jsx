@@ -31,7 +31,11 @@ function Home() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post(`${apiBaseUrl}/add-expense`, newExpense)
+        const newExpenseToSave = {
+            ...newExpense,
+            id: userId
+        }
+        axios.post(`${apiBaseUrl}/add-expense`, newExpenseToSave)
             .then(resp => {
                 setApiReload(true)
                 if (expenses.length === 0) {
